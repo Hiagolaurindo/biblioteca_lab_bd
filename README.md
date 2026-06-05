@@ -2,13 +2,13 @@
 
 Este projeto é uma aplicação completa (CRUD) para gerenciamento de uma biblioteca.
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 - `db/`: Contém o script `schema.sql` para criação do banco de dados MySQL.
 - `src/`: Código-fonte Java (Model, DAO, View, Util).
 - `docs/`: Documentação técnica (DER, Diagrama de Classes).
 - `lib/`: (Adicionar manualmente) Driver JDBC do MySQL (`mysql-connector-j-x.x.x.jar`).
 
-## 🚀 Como Executar
+##  Como Executar
 1. **Banco de Dados**:
    - Execute o script em `db/schema.sql` no seu MySQL (ex: via MySQL Workbench ou XAMPP).
 2. **Configuração Java**:
@@ -18,7 +18,7 @@ Este projeto é uma aplicação completa (CRUD) para gerenciamento de uma biblio
 3. **Execução**:
    - Execute a classe `view.MainView` para iniciar a interface gráfica.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 - **Banco de Dados**: MySQL
 - **Linguagem**: Java
 - **Persistência**: JDBC
